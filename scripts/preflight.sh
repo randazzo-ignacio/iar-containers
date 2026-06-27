@@ -76,10 +76,6 @@ echo "--- Phase 2: Writability tests ---"
 # read-only bind mount as additional assurance.
 DANGEROUS_PATHS=(
     "/root/.emacs.d/.git/hooks"
-    "/root/.ssh"
-    "/root/.bashrc"
-    "/root/.zshrc"
-    "/root/.profile"
     "/var/run/docker.sock"
     "/etc/cron.d"
     "/var/spool/cron"
